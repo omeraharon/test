@@ -1,0 +1,42 @@
+
+.logo-area {
+    width: 500px;
+}
+.logo-area > * {
+    width: 100px;
+    overflow: hidden;
+}
+.navbar-style {
+    width: 500px;
+    overflow: hidden;
+}
+.navbar-style > ul > li {
+    width: 19%;
+}
+
+.stories > h1 {
+    text-align: center;
+}
+.stories > div {
+    width: 255px;
+}
+
+.team-portal, .team-portal-content {
+    height: 316px;
+}
+.team-portal > .team-portal-content > img {
+    width: 250px;
+    height: 346px;
+    position: relative;
+    bottom: 30px;
+}
+
+.login {
+    width: 150px;
+    margin: auto;
+}
+
+
+
+
+

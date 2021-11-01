@@ -1,0 +1,261 @@
+
+.top-header {
+    text-align: center;
+}
+.navbar-brand {
+    margin: auto;
+}
+.logo-area > img {
+    width: auto;
+    display: block;
+}
+.logo-area {
+    margin: auto;
+}
+.navbar-toggler {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.navbar-nav {
+    position: absolute;
+    top: 100px;
+    left: 18px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+header > .header-content {
+    font-size: large;
+    margin: 50px auto;
+    padding-bottom: 70px;
+}
+
+.top-about {
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+.the-project {
+    border-radius: 0px;
+    width: 100%;
+    text-align: center;
+    min-width: 100%;
+    margin: auto;
+    height: 300px;
+}
+
+.the-project > p {
+    margin: auto;
+    height: 65%;
+}
+.our-goal {
+    margin: auto;
+    top: -20px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+}
+.our-goal > p {
+    font-size: medium;
+    padding-top: 20px;
+}
+.bottom-about, .participant-collection {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.catalogue {
+    width: 100%;
+    position: relative;
+    top: 300px;
+    display: block;
+}
+.about-images, .placeholder-photo {
+    margin: auto;
+    width: 100%;
+}
+.about-images > img , .placeholder-photo > img {
+    margin: 30px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.grey-background, * > .grey-background, .participant-collection > .placeholder-photo > .grey-background {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    left: 0;
+    border-radius: 0;
+}
+.about-us {
+    margin: auto;
+    text-align: center;
+    top: 30px;
+    left: 0;
+}
+.about-us > p, .collection > p, .catalogue-content > p {
+    width: 70%;
+    margin: 20px auto;
+}
+.about-us > img, .collection > img {
+    margin: 50px auto;
+}
+.collection, .catalogue-content {
+    position: relative;
+    top: 330px;
+    text-align: center;
+    margin: auto;
+}
+
+.catalogue-content {
+    text-align: center;
+    margin: auto;
+}
+
+.placeholder-photo {
+    bottom: 20px;
+    position: absolute;
+}
+
+main > hr {
+    display: block;
+    margin: auto;
+}
+
+.stories, main > hr {
+    position: relative;
+    top: 600px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.stories > div {
+    display: block;
+    margin: auto;
+    min-width: 90%;
+}
+
+.stories > div > * {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    display: block;
+    height: auto;
+}
+
+.stories > div > h5 {
+    height: 100%;
+}
+
+.stories > div > img {
+    width: 90%;
+    height: 60%;
+    display: block;
+}
+
+.learn-more-button {
+    margin: 20px auto;
+    margin-top: 15px !important;
+}
+
+footer {
+    position: relative;
+    top: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.team-portal-content {
+    margin: auto;
+    height: 600px;
+    display: block;
+}
+
+.login {
+    min-width: 330px;
+    height: 200px;
+}
+
+
+.login-button {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.team-portal {
+    width: 100%;
+    min-height: 700px;
+}
+.team-portal-content {
+    min-height: 700px;
+    text-align: center;
+}
+
+.team-portal > .team-portal-content > img {
+    min-width: 330px;
+    min-height: 457px;
+    position: relative;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.bottom-menu {
+    height: 100%;
+    text-align: left;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bottom-menu > img {
+    margin-left: 20px;
+}
+
+.bottom-menu > hr {
+    width: 95%;
+}
+
+.menu {
+    display: block;
+    text-align: left;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.copyright {
+    margin: 5px;
+    height: 250px;
+    width: 400px;
+}
+
+.copyright > * {
+    display: block;
+}
+
+.copyright > li, .copyright > span {
+    margin-left: 5px;
+    padding: 20px;
+}
+
+.copyright > img {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 120px;
+}
+
+.moonsite-logo {
+    position: relative;
+    top: 38px;
+    right: 135px;
+}
+
+
+
+
+

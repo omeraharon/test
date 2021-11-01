@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="disabled people, handicapped people">
+    <link rel="icon" href="assets/images/logo.svg" type="image/svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 1200px)">
+    <link rel="stylesheet" href="right-hamburger.css" media="screen and (max-width: 990px)">
+    <title>I-TAL-YA Books</title>
+</head>
+
+<body>
+    <header>
+        <!-- Menu & Logos -->
+        <div class="top-header">
+            <nav class="navbar navbar-expand-lg navbar-light trigger" role="menuitem">
+                <div class="logo-area">
+                    <img class="navbar-brand" src="assets/images/logo.svg" alt="logo">
+                    <img class="navbar-brand" src="assets/images/National-Library.png" alt="National-Library">
+                    <img class="navbar-brand" src="assets/images/Comunita.png" alt="Comunita">
+                    <img class="navbar-brand" src="assets/images/logo4.png" alt="logo4">
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="assets/images/hamburger.png" alt="menu button">
+                </button>
+
+                <div class="collapse navbar-collapse navbar-style" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Participant Collection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stories</a>
+                        </li>
+                        <button class="nav-button">Connect to Teca</button>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Header Content -->
+        <div class="header-content">
+            <h1>I-TAL-YA Books</h1>
+            <span>Revealing the rich legacy of Hebrew printed books in Italy<span>
+        </div>
+    </header>
+    <main>
+        <!-- accessibility -->
+        <div class="accessibility">
+            <button id="accessibility" data-toggle="modal" data-target="#accessibilityModal">
+                <img src="assets/images/accessibility.png" alt="accessibility">
+            </button>
+        </div>
+
+        <div class="modal fade" id="accessibilityModal" tabindex="-1" role="dialog"
+            aria-labelledby="accessibilityModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Text</h5>
+                    </div>
+                    <div class="modal-body">
+                        <button id="enlargeText" class="btn btn-primary" data-dismiss="modal">Enlarge</button>
+                        <button id="regularText" class="btn btn-secondary" data-dismiss="modal">Regular</button>
+                    </div>
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Contrast</h5>
+                    </div>
+                    <div class="modal-body">
+                        <label><b>Choose Background color: </b></label>
+                        <input type="color" class="color-input" id="backgroundColorInput" value="#ffffff"/>
+                        <label><b>Choose text color: </b></label>
+                        <input type="color" class="color-input" id="textColorInput" value="#ffffff"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="about-area">
+            <!-- The Project & Our Goal -->
+            <div class="top-about">
+                <div class="the-project">
+                    <h1>The Project</h1>
+                    <p>
+                        I-TAL-YA Books aims to create one centralized catalogue for<br>
+                        Hebrew book holdings from across Italy, for scholars and <br>
+                        researchers around the world.
+                    </p>
+                    <button class="learn-more-button">Learn More...</button>
+                </div>
+                <div class="our-goal">
+                    <h5>Our Goal</h5>
+                    <span>35,000</span>
+                    <p>
+                        The entire catalogue will include an
+                        estimated 35,00 volumes from 14 Jewish communities and 25 state
+                        institutions across Italy
+                    </p>
+                </div>
+            </div>
+            <!-- About us -->
+            <div class="bottom-about">
+                <div class="about-images">
+                    <div class="grey-background"></div>
+                    <img src="assets/images/about.jpg" alt="about">
+                </div>
+                <div class="about-us">
+                    <h1>About us</h1>
+                    <p>
+                        Creating the Union Catalogue of Hebrew Books in Italy as a
+                        partnership between the Union of Italian Jewish Communities,
+                        the National Central Library of Rome and the National Library of Israel.
+                    </p>
+                    <button class="learn-more-button">Learn More...</button>
+                    <img src="assets/images/book-icon.png" alt="book">
+                </div>
+            </div>
+        </div>
+
+        <!-- Participant collection -->
+        <div class="participant-collection">
+            <div class="collection">
+                <h1>Participant Collection</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, omnis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, facere.
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <button class="learn-more-button">Learn More...</button>
+            </div>
+            <div class="placeholder-photo">
+                <div class="grey-background"></div>
+                <img src="assets/images/placeholder-photo.png" alt="placeholder-photo">
+            </div>
+        </div>
+        <!-- Catalogue -->
+        <div class="catalogue">
+            <div class="placeholder-photo">
+                <div class="grey-background"></div>
+                <img src="assets/images/placeholder-photo.png" alt="placeholder-photo">
+            </div>
+            <div class="catalogue-content">
+                <h1>Catalogue</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, omnis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, facere.
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <button class="learn-more-button">Learn More...</button>
+            </div>
+        </div>
+        <!-- Stories -->
+        <hr>
+        <div class="stories" id="stories">
+            <h1>Stories</h1>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Team Portal -->
+        <div class="team-portal">
+            <div class="team-portal-content">
+                <img src="assets/images/phone.png" alt="phone">
+                <div class="login">
+                    <h3>I-TAL-YA Books Project Team Portal</h3>
+                    <p>This area is only for members of the project implementation team</p>
+                    <button class="login-button">Login</button>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Menu -->
+        <div class="bottom-menu">
+            <img src="assets/images/logo.svg" alt="logo">
+            <ul class="menu">
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Participant Collection</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Stories</a></li>
+            </ul>
+            <hr>
+            <div class="copyright">
+                <span>2021 I-TAL-YA BOOKS</span>
+
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Licenses</a></li>
+                <li><a href="#">Site map</a></li>
+
+                <span class="moonsite-logo"> Moonsite web development </span>
+                <img src="assets/images/moonsite.svg" alt="moonsite-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
